@@ -1,0 +1,26 @@
+@media screen and (max-width: 640px) {
+    .navbarUl {
+      display: none;
+    }
+    .hamburger {
+        display: flex;
+    }
+  }
+
+  @media screen and (max-width: 940px) {
+    .bigCarousel {
+      display: none;
+    }
+    .smallCarousel {
+        display: flex;
+    }
+  }
+
+  @media screen and (max-width: 960px) {
+      .presentationInner {
+         height: 90%;
+      }
+    .presentationInner p {
+        padding: 0 1rem 0 1rem;
+    }
+  }
