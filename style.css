@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+h1, h2, h3 {
+    color: #bcbcc1;
+}
 /* HEADER */
 
 .logo {
@@ -39,6 +42,7 @@ li a {
     justify-content: space-between;
     align-items: center;
     background-color: #f1f1f1;
+    font-family: Ayuthaya;
 
 }
 
@@ -62,7 +66,6 @@ li a {
 }
 .presentation {
     height: 360px;
-    background-color: #ebd516;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -70,27 +73,30 @@ li a {
 }
 
 .presentationInner {
-    background-color: #409120;
     height: 80%;
     width: 960px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
 }
 
-.presentation h1 {
-
+.presentationInner h1 {
+    border-bottom: #71c1aa solid 5px;
+    padding-bottom: 1rem;
+    font-size: 2.7rem;
+    font-family: Ayuthaya;
 }
 
-.presentation p {
-
+.presentationInner p {
+    color: #282c34;
+    font-family: Chalkboard;
 }
 /* PRODUCTS */
 
 .products {
     height: 760px;
-    background-color: #71c1aa;
     width: 100%;
     display: flex;
     align-items: center;
@@ -98,7 +104,7 @@ li a {
 }
 
 .productsInner {
-    height: 80%;
+    height: 90%;
     width: 80%;
     display: grid;
     grid-template-areas:
@@ -109,13 +115,14 @@ li a {
     '. info3 . . info4 .';
     grid-template-rows:10% 40% 5% 40% 5%;
     grid-template-columns:5% 40% 5% 5% 40% 5%;
+    font-family: Ayuthaya;
 }
 
 .prodImg {
     height: 240px;
     width: 320px;
     background-color: #71c1aa;
-    border: solid 10px black;
+    border: solid 10px #e7e7e7;
 }
 
 .product-info {
@@ -124,6 +131,7 @@ li a {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    font-family: Ayuthaya;
 }
 
 .flexCenter {
@@ -140,6 +148,8 @@ li a {
 
 .prodH1 {
     grid-area: pro;
+    font-family: Ayuthaya;
+    border-bottom: solid 5px #f0bf35;
 }
 
 .lur1 {
@@ -174,13 +184,17 @@ li a {
 /* CONTACT */
 
 .contact {
-    background-color: blueviolet;
     height: 400px;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    font-family: Ayuthaya;
+}
+
+.contact h1 {
+    border-bottom: solid 5px #51c2ed;
 }
 
 .eInput {
@@ -216,22 +230,27 @@ footer {
     color: white;
   }
   
- footer  a:hover {
+footer  a:hover {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.726);
-  }
+}
   
-  footer a:active {
-    text-decoration: none;
-  }
+footer a:active {
+text-decoration: none;
+}
 
+
+.copy {
+    display: flex;
+    justify-content: center;
+}
   .copy 
     h6 {
       margin: 1rem 0 1rem 0;
       font-size: 0.8rem;
       color: hsla(0, 0%, 100%, 0.7);
     
-  }
+}
 
 
 
@@ -240,13 +259,14 @@ footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    font-family: Ayuthaya;
 }
 
 .cols1 {
 
 }
 .cols2 {
-    margin: 0 2rem 0 2rem;
+    padding: 2rem 4rem 2rem 4rem;
     border-left: solid white 5px;
     border-right: solid white 5px;
 }
