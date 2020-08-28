@@ -53,6 +53,27 @@
   }
 }
 
+@media screen and (max-width: 460px) {
+  .productsInner {
+    height: 100%;
+    display: grid;
+    grid-template-areas:
+    '. . pro . .'
+    '. . . . .'
+    '. lur1 lur1 lur1 .'
+    '. info1 info1 info1 .'
+    '. lur2 lur2 lur2 .'
+    '. info2 info2 info2 .'
+    '. lur3 lur3 lur3 .'
+    '. info3 info3 info3 .'
+    '. lur4 lur4 lur4 .'
+    '. info4 info4 info4 .';
+    grid-template-rows:
+    8% 2% 17.5% 5% 17.5% 5% 17.5% 5% 17.5% 5%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+}
+
 @media screen and (max-width: 640px) {
   .footerCol1 {
     flex-direction: column;
