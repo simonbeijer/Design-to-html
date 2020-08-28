@@ -18,11 +18,14 @@
 
   @media screen and (max-width: 960px) {
       .presentationInner {
-         height: 90%;
+         height:100%;
          justify-content: space-around;
       }
     .presentationInner p {
         padding: 1rem 1rem 0 1rem;
+    }
+    .presentation {
+      height: 420px;
     }
   }
 
@@ -35,6 +38,7 @@
       display: grid;
       grid-template-areas:
       '. . pro . .'
+      '. . . . .'
       '. lur1 lur1 lur1 .'
       '. info1 info1 info1 .'
       '. lur2 lur2 lur2 .'
@@ -44,7 +48,7 @@
       '. lur4 lur4 lur4 .'
       '. info4 info4 info4 .';
       grid-template-rows:
-      6% 18.5% 5% 18.5% 5% 18.5% 5% 18.5% 5%;
+      6% 4% 17.5% 5% 17.5% 5% 17.5% 5% 17.5% 5%;
       grid-template-columns: 20% 20% 20% 20% 20%;
   }
 }

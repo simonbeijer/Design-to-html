@@ -109,11 +109,12 @@ li a {
     display: grid;
     grid-template-areas:
     '. . pro pro . .'
+    '. . . . . .'
     '. lur1 . . lur2 .'
     '. info1 . . info2 .'
     '. lur3 . . lur4 .'
     '. info3 . . info4 .';
-    grid-template-rows:10% 40% 5% 40% 5%;
+    grid-template-rows:8% 2% 40% 5% 40% 5%;
     grid-template-columns:5% 40% 5% 5% 40% 5%;
     font-family: Ayuthaya;
 }
